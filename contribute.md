@@ -20,8 +20,8 @@ Only needed once when you start working on a project.
   ```
 
 ## 🌿 2. Create a New Branch
-❌ Do NOT push directly to main.
-✅ Create a separate branch for every new feature or bug fix:
+- ❌ Do NOT push directly to main.
+- ✅ Create a separate branch for every new feature or bug fix:
 
   ```bash
   git checkout -b feature/your-feature-name
