@@ -60,7 +60,7 @@ body {
     border-left-width: 4px;
     border-color: #3b82f6;
 }
-
+/* ya animation matquee wala ha jo left sa rifgt ja raha ha  */
 .marquee-container {
     overflow: hidden;
     white-space: nowrap;
@@ -85,22 +85,27 @@ body {
         transform: translateX(-100%);
     }
 }
+/* idr sa aga partner walaa css ha  */
+.partner-marquee-container {
+  overflow: hidden;
+  position: relative;
+}
 
 .partner-marquee-content {
-    display: flex;
-    animation: partner-scroll-ltr 40s linear infinite;
+  display: flex;
+  width: fit-content;
+  animation: scroll 20s linear infinite;
 }
 
-.partner-marquee-container:hover .partner-marquee-content {
-    animation-play-state: paused;
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
-@keyframes partner-scroll-ltr {
-    from {
-        transform: translateX(0);
-    }
-
-    to {
-        transform: translateX(-50%);
-    }
+.partner-marquee-content:hover {
+  animation-play-state: paused;
 }
