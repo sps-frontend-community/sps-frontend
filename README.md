@@ -1,17 +1,13 @@
-# SPS Frontend Task 1
+# SPS-Frontend-Task 1 – M. Hamza
 
-## ✅ Task Overview
-Created a basic HTML page using semantic elements only:
-- `<header>` — Page title
-- `<nav>` — Navigation links
-- `<article>` — Main content section
-- `<aside>` — Sidebar content
-- `<footer>` — Footer note
+This project demonstrates a basic semantic HTML5 layout as assigned in Task 1 of the SPS Frontend Internship.
 
----
+## Features
 
-## 📁 How to View
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/mapwithhamza/sps-frontend-hamza.git
-   cd sps-frontend-hamza
+- Semantic structure using `<header>`, `<nav>`, `<main>`, `<article>`, `<aside>`, and `<footer>`
+- Clean, readable HTML with proper indentation
+- Descriptive comments for clarity
+
+## Author
+
+**M. Hamza Khan**
